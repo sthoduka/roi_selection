@@ -54,7 +54,6 @@ void BoxSelection::selectBox(const cv::Mat &frame, cv::Point &top_left, cv::Poin
         else continue;
     }
     cv::destroyWindow("Box Selection");
-    cv::destroyWindow("Instructions");
     top_left = top_left_;
     bottom_right = bottom_right_;
 }
